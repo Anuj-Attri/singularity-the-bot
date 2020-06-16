@@ -5,7 +5,7 @@ from function1 import quote, helpbox
 from func_anime import anime,anime_search,anime_search_2
 
 prefix = '$'
-TOKEN = 'NTYyNjM0OTgwNDE3NzMyNjA4.XtJMsw.VSoS2-7b7xcSVpd4tfm4L31-MUI'
+TOKEN = ' '
 client = discord.Client()
 
 @client.event
@@ -13,7 +13,7 @@ async def on_message(message):
     if message.author == client.user:
         return
 
-    if message.content.startswith(prefix + 'pat'):                                        #431113252706058260
+    if message.content.startswith(prefix + 'pat'):                                        
         msg = '>///< {0.author.mention}'.format(message)
         await message.channel.send(msg)
 
