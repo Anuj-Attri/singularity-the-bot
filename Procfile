@@ -1,1 +1,1 @@
-worker: python bot.py
+worker: python venv/Singularity/bot.py
