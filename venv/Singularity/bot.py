@@ -5,7 +5,7 @@ from function1 import quote, helpbox
 from func_anime import anime,anime_search,anime_search_2
 
 prefix = '$'
-TOKEN = process.env.bot_token
+TOKEN = 'NTYyNjM0OTgwNDE3NzMyNjA4.XuyEdg.YmSeYqQz0qJW659aDvjiZgfg3AI'
 client = discord.Client()
 
 @client.event

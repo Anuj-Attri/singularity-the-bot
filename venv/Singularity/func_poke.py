@@ -8,7 +8,7 @@ colors = [0x0000FF, 0xFF0000, 0x00FF00, 0x000000, 0xFFFFFF]
 
 
 async def poke_embed(msg, idx):
-    path = "C:/Users/Anuj Attri/PycharmProjects/Discord/venv/Singularity/images/" + str(
+    path = "C:/Users/Anuj Attri/PycharmProjects/singularity-the-bot/venv/Singularity/images/" + str(
         poke_data['Name'].iloc[idx]).lower() + '.png'
     file = discord.File(path,filename=str(poke_data['Name'].iloc[idx]).lower() + '.png')
     embed = discord.Embed(title=str(poke_data['Name'].iloc[idx]).upper(), color=colors[random.randint(0,6)])
